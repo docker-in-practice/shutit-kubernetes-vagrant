@@ -75,7 +75,7 @@ def module():
 		'shutit.tk.kubernetes_virtualbox.kubernetes_virtualbox', 782914092.00,
 		description='',
 		maintainer='',
-		delivery=['bash']
+		delivery_methods=['bash'],
 		depends=['shutit.tk.setup','tk.shutit.vagrant.vagrant.vagrant','shutit-library.virtualbox.virtualbox.virtualbox']
 	)
 
