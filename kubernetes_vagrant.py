@@ -4,7 +4,7 @@
 from shutit_module import ShutItModule
 
 
-class kubernetes_virtualbox(ShutItModule):
+class kubernetes_vagrant(ShutItModule):
 
 
 	def build(self, shutit):
@@ -71,8 +71,8 @@ class kubernetes_virtualbox(ShutItModule):
 
 
 def module():
-	return kubernetes_virtualbox(
-		'shutit.tk.kubernetes_virtualbox.kubernetes_virtualbox', 782914092.00,
+	return kubernetes_vagrant(
+		'shutit.tk.kubernetes_vagrant.kubernetes_vagrant', 782914092.00,
 		description='',
 		maintainer='',
 		delivery_methods=['bash'],
