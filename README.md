@@ -1,1 +1,4 @@
-kubernetes_virtualbox: description of module directory in here
+
+git clone --recursive https://github.com/docker-in-practice/shutit-kubernetes-vagrant
+pip install shutit
+./run.sh
